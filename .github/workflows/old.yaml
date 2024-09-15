@@ -2,7 +2,7 @@ name: Test
 
 on:
   #schedule:
-   # - cron: 59 */8 * * *
+    #- cron: 59 */8 * * *
   workflow_dispatch:
     inputs:
       rebuild:
@@ -22,9 +22,6 @@ jobs:
       matrix:
         include:
           - userName: zylok520
-            repoName: TVBoxOS
-            branchName: main
-          - userName: takagen99
             repoName: Box
             branchName: main
             java_ver: 17
