@@ -22,6 +22,9 @@ jobs:
       matrix:
         include:
           - userName: zylok520
+            repoName: TVBoxOS
+            branchName: main
+          - userName: zylok520
             repoName: Box
             branchName: main
             java_ver: 17
