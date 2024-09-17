@@ -26,7 +26,7 @@ jobs:
       matrix:
         include:
           - userName: zylok520
-            repoName: Box
+            repoName: takagen99
             branchName: main
             java_ver: 17
     steps:
